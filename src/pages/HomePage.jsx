@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import image from '../images/Untitled.jpeg'; // Fallback image
+import image from '../images/Untitled.jpeg';
+import imagemey from '../images/mey.jpeg';
+ // Fallback image
 import image1 from '../images/projects.jpeg'
 import image2 from '../images/project.png'
 import image3 from '../images/faritel.png'
@@ -121,7 +123,7 @@ const HomePage = () => {
                 })
               ) : (
                 <img
-                  src={image}
+                  src={imagemey}
                   alt="Ngat Seavmey"
                   className="w-72 h-72 lg:w-96 lg:h-96 object-cover rounded-full" // Added rounded-full class
                 />
